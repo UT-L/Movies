@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         recyclerView = findViewById(R.id.recyclerView);
-        errorMessage = findViewById(R.id.errorTextView); // Add a TextView for errors
+        errorMessage = findViewById(R.id.errorTextView);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
